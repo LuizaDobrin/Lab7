@@ -14,6 +14,7 @@ namespace LabIV.Services
         UserRoleGetDTO Delete(int id);
         IEnumerable<UserRoleGetDTO> GetAll();
         UserRoleGetDTO Create(UserRolePostDTO userRolePostDTO);
+
         UserRoleGetDTO Upsert(int id, UserRolePostDTO userRolePostDTO);
         
     }
